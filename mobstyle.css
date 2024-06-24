@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); 
+@import url("https://fonts.cdnfonts.com/css/telegraf"); 
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    padding: 50px;
+    background-color: rgb(219, 215, 184);
+}
+
+h3#header-name {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: rgb(219, 215, 184);
+    text-align: center;
+    letter-spacing: -0.07em;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+ul#list0 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px 60px 0px;
+}
+
+ul#list0 li {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul#list0 li a {
+    color: rgb(219, 215, 184);
+    text-decoration: none;
+    opacity: 1;
+}
+
+.section1 {
+    padding: 50px;
+}
+
+.section1 h1 {
+    font-family: Poppins;
+    color: rgb(219, 215, 184);
+    font-size: 45px;
+    letter-spacing: -0.04em;
+    line-height: 1em;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.section2 {
+    padding: 50px;
+    text-align: end;
+}
+
+.section2 h1 {
+    font-family: Poppins;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    color: rgb(219, 215, 184);
+    font-size: 45px;
+    letter-spacing: -0.04em;
+    line-height: 1em;
+}
+
+.section3 {
+    padding: 70px 50px 20px 50px;
+    text-align: left;
+}
+
+.section3 p {
+    font-family: Poppins;
+    font-size: 10px;
+    color: rgb(219, 215, 184);
+    text-decoration: none;
+    padding-left: 3px;
+    letter-spacing: 0.07em;
+}
+
+.section3 h1 a {
+    font-family: Poppins;
+    font-size: 45px;
+    color: rgb(219, 215, 184);
+    text-decoration: none;
+    padding-left: 0px;
+    letter-spacing: -0.07em;
+}
+
+.section3 h1 a b {
+    transition: all 0.4s ease 0s;
+    padding-left: 10px;
+    font-size: 33px !important;
+}
+
+.section3 h1 a:hover {
+    b {
+        padding-left: 40px;
+    }
+}
+
+footer {
+    padding: 100px 30px 0px;
+}
+
+.footer h1#logo {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(128, 154, 155);
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.footer p#made-by {
+    font-family: Poppins;
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: 400;
+    color: rgb(128, 154, 155);
+    text-align: center;
+}
+
+.footer div#links-list {
+    padding: 0px 10px;
+}
+
+.footer div#links-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer div#links-list ul li {
+    padding: 7px 0px;
+}
+
+.footer div#links-list ul li a {
+    font-family: Poppins;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(128, 154, 155);
+}
+
+.copyright {
+    text-align: center;
+    padding: 40px 90px 20px;
+    font-family: Telegraf, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(128, 154, 155);
+}

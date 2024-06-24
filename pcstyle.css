@@ -1,0 +1,151 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(180deg, #6a8485,#809a9b, #5a9990,#809a9b,#91acad, #cac6b5);
+
+}
+
+header{ 
+    padding: 50px 50px;
+    background-color: #d8d2ad;
+
+}
+
+h3#header-name {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #dbd7b8;
+    text-align: center;
+    letter-spacing: -0.07em;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+ul#list0{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0px 600px 0px 600px;
+}
+
+ul#list0 li{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+ul#list0 li a{
+    color:#dbd7b8;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+ul#list0 li a:hover{
+    opacity: 1;
+}
+
+.section1{
+    padding:50px 50px; 
+}
+
+.section1 h1{
+    font-family: "Poppins";
+    color:#dbd7b8;
+    font-size: 170px;
+    letter-spacing: -0.04em;
+    line-height: 1em;
+    padding-top: 250px;
+    padding-bottom:50px;
+    padding-left: 100px;
+}
+
+.section2{
+    padding: 50px 50px 50px 50px;
+    text-align: end;
+}
+
+.section2 h1{
+    font-family: "Poppins";
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+    color:#dbd7b8;
+    font-size: 170px;
+    letter-spacing: -0.04em;
+    line-height: 1em;
+}
+
+
+.section3{
+    padding: 50px 50px 50px 50px;
+    text-align: left;
+}
+
+.section3 p{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color:#dbd7b8;
+    text-decoration: none;
+    padding-left: 111px;
+    letter-spacing: 0.07em;
+}
+
+.section3 h1 a{
+    font-family: "Poppins";
+    font-size: 170px;
+    color:#dbd7b8;
+    text-decoration: none;
+    padding-left: 100px;
+    letter-spacing: -0.07em;
+}
+
+.section3 h1 a b{
+    font-size: 120px !important; 
+    transition: all 0.4s ease;
+    padding-left: 10px;
+}
+
+.section3 h1 a:hover{
+    b{
+        padding-left: 40px;
+    }
+}
+
+
+.footer{
+    padding: 100px 30px 0px 30px;
+   
+
+}
+
+.footer h1#logo{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 60px;
+    color: #809a9b;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+
+.copyright{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Telegraf", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #809a9b;
+}

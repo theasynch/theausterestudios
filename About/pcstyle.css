@@ -1,0 +1,19 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body{
+background-color: #141212;
+}
+
+.idea h1#idea{
+    font-family: "Poppins";
+    font-size: 170px;
+    color: #d8cebb;
+}
