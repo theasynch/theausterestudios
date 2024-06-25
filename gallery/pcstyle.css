@@ -1,0 +1,41 @@
+
+*{
+    background-color:#f0ebc9;;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, #6a8485,#809a9b,#bbbbaf, #cfcfc6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: -0.07em;
+}
+
+.product1{
+    display: flex;
+}
+
+.product1 img{
+    width: 10em;
+
+}
+
+h3#button{
+    font-family: "Poppins";
+    padding: 10px 30px 10px 30px;
+}
